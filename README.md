@@ -38,9 +38,10 @@ Before you begin, ensure you have Python 3.8+ installed on your system.
    venv\Scripts\activate
 
 4. **Install the Flask libraries bellow**
+   
 ![image](https://github.com/user-attachments/assets/f74b71db-8eac-4c4b-b6fd-e38d8b6f2508)
 
-5. **Install all the other python packages required**
+6. **Install all the other python packages required**
    ![image](https://github.com/user-attachments/assets/5a8ce81c-e865-4a4c-bfb5-8cc487fceb50)
 
 ## Running Flask locally:
