@@ -43,7 +43,7 @@ Before you begin, ensure you have Python 3.8+ installed on your system.
 5. **Install all the other python packages required**
    ![image](https://github.com/user-attachments/assets/5a8ce81c-e865-4a4c-bfb5-8cc487fceb50)
 
-### Running Flask locally:
+## Running Flask locally:
 
 1. **Setting up environment variables:**
    ```bash
