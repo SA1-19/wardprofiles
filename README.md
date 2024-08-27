@@ -28,3 +28,39 @@ Before you begin, ensure you have Python 3.8+ installed on your system.
    ```bash
    git clone https://github.com/yourusername/wardprofiles.git
    cd wardprofiles
+
+2. **Create a Virtual Environment Set up a virtual environment to manage your project dependencies**
+   ```bash
+   python3 -m venv venv
+
+3. **Activate the Virtual Environment (on windows)**
+   ```bash
+   venv\Scripts\activate
+
+4. **Install the Flask libraries bellow**
+![image](https://github.com/user-attachments/assets/f74b71db-8eac-4c4b-b6fd-e38d8b6f2508)
+
+5. **Install all the other python packages required**
+   ![image](https://github.com/user-attachments/assets/5a8ce81c-e865-4a4c-bfb5-8cc487fceb50)
+
+### Running Flask locally:
+
+1. **Setting up environment variables:**
+   ```bash
+   FLASK_APP=run.py
+   FLASK_ENV=development
+   DATABASE_URL=your-database-url
+
+2. **Initialising the database:**
+   ```bash
+   flask db upgrade
+
+3. **Running the flask application:**
+   ```bash
+    flask run
+
+### Key Points:
+- The `README.md` file provides clear instructions for setting up the environment, installing necessary packages, and running the Flask application.
+- It mentions essential Flask extensions and additional Python packages used in the project.
+- The file is structured with sections like Features, Installation, and Usage to make it easy to follow.
+
